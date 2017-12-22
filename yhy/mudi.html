@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>目的地</title>
+    <link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="css/header.css"/>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="css/mudi.css"/>
+</head>
+<body>
+<div class="main">
+    <header id="header">
+    </header>
+		 <div id="banner">
+      <!-- 图片区域 -->
+      <ul id="banner-img" class="banner-img" 
+          style="transition:all .3s linear;" data-load="bannerImgs">
+          <!-- 
+            <li>
+              <a href="${p.href}" title="${p.title}">
+                <img src="${p.img}">
+              </a>
+            </li> 
+          -->
+          <li style="left:50%; margin: 180px 0 0 -19px;">
+            <img src="img/loading.gif">
+          </li>
+      </ul>
+      <!--左右方向按钮-->
+      <a href="#" class="ck-slide ck-left" data-move="left"></a>
+      <a href="#" class="ck-slide ck-right" data-move="right"></a>
+      <!--导航小圆点-->
+      <ul id="indicators"  class="indicators" data-load="bannerInds">
+        <!-- <li></li> -->
+      </ul>
+			<!-- 搜索框 -->
+			<div id="banner-search">
+				<div class="hot-search">
+					<em>热搜：</em>
+					<span class="hot-city">三亚</span>
+					<span class="hot-city">泰国</span>
+					<span class="hot-city">日本</span>
+					<span class="hot-city">云南</span>
+					<span class="hot-city">厦门</span>
+					<span class="hot-city">成都</span>
+					<span class="hot-city">台湾</span>
+					<span class="hot-city">北京</span>
+					<span class="hot-city">普吉</span>
+					<span class="hot-city">马尔代夫</span>
+					<span class="hot-city">越南</span>
+					<span class="hot-city">香港</span>
+				</div>
+				<div class="input-search">
+					<input type="text" placeholder="输入目的地/景点" class="searchInput">
+					<a href="#" class="searchButton">搜索</a>
+				</div>
+			</div>
+		</div>
+    <section id="section">
+			<!--主题目的地 -->
+			<div class="row">
+					<h2>主体目的地</h2>
+					<ul class="tabs">
+						<li class="active">当季热门</li>
+						<li>海岛</li>
+						<li>亲子</li>
+						<li>蜜月</li>
+						<li>美食</li>
+						<li>摄影</li>
+						<li>自驾</li>
+						<li>古镇</li>
+						<li>免签</li>
+						<li>文艺</li>
+						<li>草原</li>
+						<li>独行</li>
+					</ul>
+				<div class="content">
+					<div class="modules">
+						<img src="img/mudi/modules_1.jpg">
+						<div class="info">
+							<h4>厦门</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								252207人去过
+							</span>
+							<div class="intro">文青们都来了 你呢</div>
+						</div>
+					</div>
+					<div class="modules">
+						<img src="img/mudi/modules_2.jpg">
+						<div class="dask"></div>
+						<div class="info">
+							<h4>札幌</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								10072人去过
+							</span>
+							<div class="intro">四季分明，独特而静美</div>
+						</div>
+					</div>
+					<div class="modules">
+						<img src="img/mudi/modules_3.jpg">
+						<div class="dask"></div>
+						<div class="info">
+							<h4>三亚</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								483940人去过
+							</span>
+							<div class="intro">花最少的钱吹南国海风</div>
+						</div>
+					</div>
+					<div class="modules">
+						<img src="img/mudi/modules_4.jpg">
+						<div class="dask"></div>
+						<div class="info">
+							<h4>箱根</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								2088人去过
+							</span>
+							<div class="intro">日本著名的温泉之乡、疗养胜地。</div>
+						</div>
+					</div>
+					<div class="modules">
+						<img src="img/mudi/modules_5.jpg">
+						<div class="dask"></div>
+						<div class="info">
+							<h4>小樽</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								8197人去过
+							</span>
+							<div class="intro">小樽是灯的故乡，保留着许多明治大正时代的...</div>
+						</div>
+					</div>
+					<div class="modules">
+						<img src="img/mudi/modules_6.jpg">
+						<div class="dask"></div>
+						<div class="info">
+							<h4>曼谷</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								120995人去过
+							</span>
+							<div class="intro">在天使之城 买到失心疯</div>
+						</div>
+					</div>
+					<div class="modules">
+						<img src="img/mudi/modules_7.jpg">
+						<div class="dask"></div>
+						<div class="info">
+							<h4>塞舌尔</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								514人去过
+							</span>
+							<div class="intro">镶嵌在印度洋上的璀璨明珠</div>
+						</div>
+					</div>
+					<div class="modules">
+						<img src="img/mudi/modules_8.jpg">
+						<div class="dask"></div>
+						<div class="info">
+							<h4>马尔代夫</h4>
+							<span class="go">
+								<i class="iconfont"></i>
+								30514人去过
+							</span>
+							<div class="intro">上帝抛洒人间的项链</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--月度目的地 -->
+			<div class="row monthDest">
+				<h2>月度目的地</h2>
+				<ul class="tabs">
+					<li class="active">1月</li>
+					<li>2月</li>
+					<li>3月</li>
+					<li>4月</li>
+					<li>5月</li>
+					<li>6月</li>
+					<li>7月</li>
+					<li>8月</li>
+					<li>9月</li>
+					<li>10月</li>
+					<li>11月</li>
+					<li>12月</li>
+				</ul>
+				<div class="item">
+					<div class="module module1">
+						<img src="img/mudi/module_1.jpg">
+						<div class="mask"></div>
+						<div class="info">
+							<div class="intro">
+								<div class="title">
+									<span class="word">巴厘岛</span>
+								</div>
+								<div class="comment">水清沙白 天堂之岛</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="module module2">
+							<img src="img/mudi/module_2.jpg">
+							<div class="mask"></div>
+							<div class="info">
+								<div class="intro">
+									<div class="title">
+										<span class="word">上海</span>
+									</div>
+									<div class="comment">经济中心 国际性大都市</div>
+								</div>
+							</div>
+						</div>
+						<div class="module module3">
+							<img src="img/mudi/module_3.jpg">
+							<div class="mask"></div>
+							<div class="info">
+								<div class="intro">
+									<div class="title">
+										<span class="word">日本</span>
+									</div>
+									<div class="comment">春观樱、夏观海、秋看红叶、冬看雪，每一季的日本都会让人流连忘...</div>
+								</div>
+							</div>
+						</div>
+						<div class="module module4">
+							<img src="img/mudi/module_4.jpg">
+							<div class="mask"></div>
+							<div class="info">
+								<div class="intro">
+									<div class="title">
+										<span class="word">新西兰</span>
+									</div>
+									<div class="comment">湛蓝的天空，清新的空气，满目的苍翠绿林，辽阔的清澈湖泊，还有...</div>
+								</div>
+							</div>
+						</div>
+						<div class="module module5">
+							<img src="img/mudi/module_5.jpg">
+							<div class="mask"></div>
+							<div class="info">
+								<div class="intro">
+									<div class="title">
+										<span class="word">柬埔寨</span>
+									</div>
+									<div class="comment">去柬埔寨，因为这里太精彩了...</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 热门目的地 -->
+			<div class="row" id="f5">
+				<div class="wrapper gd-floor hot-floor" id="hot">
+					<h2>热门目的地</h2>
+					<ul class="tabs Jtabs">
+						<li class="active">国内目的地</li>
+						<li>日本</li>
+						<li>东南亚</li>
+						<li>南亚 西亚</li>
+						<li>欧洲</li>
+						<li>美洲</li>
+						<li>澳洲</li>
+						<li>非洲</li>
+					</ul>
+					<div class="module Jmodule clearfix" style="display:block;">
+						<div class="col">
+							<dl>
+								<dt>直辖市</dt>
+								<dd>
+								<a href="#" class="J-city_item">北京</a>
+								<a href="#" class="J-city_item">上海</a>
+								<a href="#" class="J-city_item">天津</a>
+								<a href="#" class="J-city_item">重庆</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>四川</dt>
+								<dd>
+								<a href="#" class="J-city_item">成都</a>
+								<a href="#" class="J-city_item">九寨沟</a>
+								<a href="#" class="J-city_item">色达县</a>
+								<a href="#" class="J-city_item">峨眉山</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>浙江</dt>
+								<dd>
+								<a href="#" class="J-city_item">杭州</a>
+								<a href="#" class="J-city_item">绍兴</a>
+								<a href="#" class="J-city_item">宁波</a>
+								<a href="#" class="J-city_item">西塘</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>东北 内蒙古</dt>
+								<dd>
+								<a href="#" class="J-city_item">哈尔滨</a>
+								<a href="#" class="J-city_item">大连</a>
+								<a href="#" class="J-city_item">呼伦贝尔</a>
+								<a href="#" class="J-city_item">大兴安岭</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>福建 海南</dt>
+								<dd>
+								<a href="#" class="J-city_item">厦门</a>
+								<a href="#" class="J-city_item">三亚</a>
+								<a href="#" class="J-city_item">福州</a>
+								<a href="#" class="J-city_item">武夷山</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>湖南 湖北</dt>
+								<dd>
+								<a href="#" class="J-city_item">武汉</a>
+								<a href="#" class="J-city_item">张家界</a>
+								<a href="#" class="J-city_item">神农架</a>
+								<a href="#" class="J-city_item">长沙</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>山东 山西</dt>
+								<dd>
+								<a href="#" class="J-city_item">青岛</a>
+								<a href="#" class="J-city_item">烟台</a>
+								<a href="#" class="J-city_item">济南</a>
+								<a href="#" class="J-city_item">平遥古城</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>港澳台</dt>
+								<dd>
+								<a href="#" class="J-city_item">香港</a>
+								<a href="#" class="J-city_item">澳门</a>
+								<a href="#" class="J-city_item">台北</a>
+								<a href="#" class="J-city_item">花莲</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>云南</dt>
+								<dd>
+								<a href="#" class="J-city_item">丽江</a>
+								<a href="#" class="J-city_item">大理</a>
+								<a href="#" class="J-city_item">昆明</a>
+								<a href="#" class="J-city_item">西双版纳</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>江苏</dt>
+								<dd>
+								<a href="#" class="J-city_item">南京</a>
+								<a href="#" class="J-city_item">苏州</a>
+								<a href="#" class="J-city_item">无锡</a>
+								<a href="#" class="J-city_item">扬州</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>西北</dt>
+								<dd>
+								<a href="#" class="J-city_item">西安</a>
+								<a href="#" class="J-city_item">新疆</a>
+								<a href="#" class="J-city_item">青海湖</a>
+								<a href="#" class="J-city_item">西宁</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>安徽 江西</dt>
+								<dd>
+								<a href="#" class="J-city_item">黄山</a>
+								<a href="#" class="J-city_item">庐山</a>
+								<a href="#" class="J-city_item">三清山</a>
+								<a href="#" class="J-city_item">景德镇</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>西藏 贵州</dt>
+								<dd>
+								<a href="#" class="J-city_item">拉萨</a>
+								<a href="#" class="J-city_item">林芝</a>
+								<a href="#" class="J-city_item">荔波古镇</a>
+								<a href="#" class="J-city_item">日喀则</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>广东 广西</dt>
+								<dd>
+								<a href="#" class="J-city_item">广州</a>
+								<a href="#" class="J-city_item">深圳</a>
+								<a href="#" class="J-city_item">珠海</a>
+								<a href="#" class="J-city_item">桂林</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>河南 河北</dt>
+								<dd>
+								<a href="#" class="J-city_item">北戴河</a>
+								<a href="#" class="J-city_item">秦皇岛</a>
+								<a href="#" class="J-city_item">承德</a>
+								<a href="#" class="J-city_item">洛阳</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+    <footer id="footer">
+        <iframe src="footer.html" frameborder="0"></iframe>
+    </footer>
+</div>
+<script src="js/ajax.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/mudi.js"></script>
+</body>
+</html>

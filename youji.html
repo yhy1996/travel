@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>游记</title>
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/header.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+	<link rel="stylesheet" href="css/youji.css"/>
+	<style>
+		#pages li.disabled a{
+			color:#ddd;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<header id="header">
+    </header>
+		<div id="banner">
+      <!-- 图片区域 -->
+      <ul id="banner-img" class="banner-img" 
+          style="transition:all .3s linear;" data-load="bannerImgs">
+          <!-- 
+            <li>
+              <a href="${p.href}" title="${p.title}">
+                <img src="${p.img}">
+              </a>
+            </li> 
+          -->
+          <li style="left:50%; margin: 180px 0 0 -19px;">
+            <img src="img/loading.gif">
+          </li>
+      </ul>
+      <!--左右方向按钮-->
+      <a href="#" class="ck-slide ck-left" data-move="left"></a>
+      <a href="#" class="ck-slide ck-right" data-move="right"></a>
+      <!--导航小圆点-->
+      <ul id="indicators"  class="indicators" data-load="bannerInds">
+        <!-- <li></li> -->
+      </ul>
+			<!-- 搜索框 -->
+			<div id="banner-search">
+				<div class="hot-search">
+					<em>热搜：</em>
+					<span class="hot-city">三亚</span>
+					<span class="hot-city">泰国</span>
+					<span class="hot-city">日本</span>
+					<span class="hot-city">云南</span>
+					<span class="hot-city">厦门</span>
+					<span class="hot-city">成都</span>
+					<span class="hot-city">台湾</span>
+					<span class="hot-city">北京</span>
+					<span class="hot-city">普吉</span>
+					<span class="hot-city">马尔代夫</span>
+					<span class="hot-city">越南</span>
+					<span class="hot-city">香港</span>
+				</div>
+				<div class="input-search">
+					<input type="text" placeholder="输入目的地/景点" class="searchInput">
+					<a href="#" class="searchButton">搜索</a>
+				</div>
+			</div>
+		</div>
+		<section id="section">
+			<div class="yj-left">
+				<a href="#" class="yj-left">
+					<img src="img/yj/youji.jpg" alt="">
+				</a>
+				<div class="left-top">
+					<ul class="tab">
+						<li class="current">推荐游记</li>
+						<li>热门游记</li>
+						<li>最新发布</li>
+					</ul>
+					<div class="title-right">
+						<a href="#" class="my-note">
+							<span></span>
+							<em>我的游记</em>
+						</a>
+						<a href="#" class="write-note">
+							<span></span>
+							<em>发表游记</em>
+						</a>
+					</div>
+				</div>
+				<div class="yj-list">
+					<!--内容 -->
+					<ul class="list">
+					</ul>
+					<!--页码 -->
+					<div id="pages">
+						
+					</div>
+				</div>
+			</div>
+			<div class="yj-right">
+				<div class="traverler">
+					<div class="comment-tit">
+						<a href="#" class="right-more">更多&gt;</a>
+					</div>
+					<div class="traverler-auther">
+						<div class="traverler-img">
+							<div class="sex"></div>
+							<a href="#">
+								<img src="img/yj/user_1.jpg" class="title-img">
+							</a>
+						</div>
+						<div class="traverler-name">
+							番薯糖水
+						</div>
+						<div class="traverler-des">
+							90后，不知道怎么定义作家与旅行家，但一直折腾着前进。关注当下年轻人生活，喜欢摇滚乐，年轻一点的时候狂爱纽约，现在是巴黎脑残粉。
+						</div>
+						<ul class="traverler-label">
+							<li>摄影</li>
+							<li>写攻略</li>
+						</ul>
+						<a href="#" class="master-btn">申请大家玩</a>
+					</div>
+				</div>
+				<div class="commen-tit">
+					<p class="right-tit">当前活动</p>
+				</div>
+				<ul class="activity-list">
+					<li>
+						<a href="#">
+							<div class="activity-img"></div>
+							<div class="activity-show">
+								<p class="activity-name">写游记，有奖励！</p>
+								<p class="activity-des">最高可赢取千元旅游基金</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="activity-img"></div>
+							<div class="activity-show">
+								<p class="activity-name">旅图换旅费</p>
+								<p class="activity-des">晒图有奖！轻松赢取30元红包！</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="activity-img"></div>
+							<div class="activity-show">
+								<p class="activity-name">晒旅拍 赢三星C8手机</p>
+								<p class="activity-des">记录你的精彩旅行</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="bk-recommend">
+					<div class="right-commen">
+						<p class="right-tit">清仓特卖</p>
+						<a href="#" class="right-more">
+							更多&gt;
+						</a>
+					</div>
+					<ul class="recommend-list">
+						<li>
+							<div class="img-show">
+								<img src="img/yj/view_1.jpg">
+								<div class="recommend-name">【元旦】北京双高5日游</div>
+							</div>
+							<div class="recommend-price">
+								<i>￥</i>
+								1899.00
+								<span>起</span>
+							</div>
+						</li>
+						<li>
+							<div class="img-show">
+								<img src="img/yj/view_2.jpg">
+								<div class="recommend-name">【元旦】北京双高5日游</div>
+							</div>
+							<div class="recommend-price">
+								<i>￥</i>
+								566.00
+								<span>起</span>
+							</div>
+						</li>
+						<li>
+							<div class="img-show">
+								<img src="img/yj/view_3.jpg">
+								<div class="recommend-name">哈尔滨-吉林雾凇-长白山-魔界-雪乡-亚布力直飞6日游</div>
+							</div>
+							<div class="recommend-price">
+								<i>￥</i>
+								1799.00 
+								<span>起</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+        <iframe src="footer.html" frameborder="0"></iframe>
+    </footer>
+	</div>
+	<script src="js/ajax.js"></script>
+  <script src="js/jquery-3.2.1.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/banner.js"></script>
+	<script src="js/yj.js"></script>
+</body>
+</html>

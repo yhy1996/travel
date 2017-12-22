@@ -1,0 +1,117 @@
+#nav{
+    background:#4c5a65;
+    width:100%;
+    min-height:60px;
+    box-shadow:0px 0px 9px 0px rgba(0,0,0,0.15);
+}
+#nav .basic{
+    width:990px;
+    margin:0 auto;
+    position:relative;
+    z-index:2000;
+}
+.clearfix{ zoom:1;}
+#nav .tn-logo{
+    width:115px;
+    height:60px;
+    float:left;
+    left:0;
+    top:0;
+}
+#nav a{
+    color:#404040;
+}
+#nav .tn-logo img{
+    display:block;
+    width:83px;
+    height:33px;
+    margin-top:13px;
+}
+.nav_center{
+    float:left;
+}
+.nav_center li{
+    float:left;
+    padding:0 14px;
+	margin:0 1px;
+    height:60px;
+    line-height:60px;
+    overflow:hidden;
+    display:list-item;
+}
+#nav .nav_center li a{
+    font:16px "microsoft yahei";
+	font-weight:bold;
+    color:#fff;
+    line-height:22px;
+}
+#nav .nav_center li:hover{
+	background:#33BC60;
+}
+.active{
+    background:#33BC60;
+}
+.basic-box{
+    width:68px;
+    height:38px;
+    float:left;
+    margin-top:10px;
+    margin-right:10px;
+    z-index:10;
+    position:relative;
+    display:none;
+}
+/*登录 和 注册*/
+#nav .basic .login{
+    float:right;
+    margin-right:130px;
+}
+.basic .login{
+    float:right;
+    width:90px;
+    margin-top:19px;
+    position:relative;
+}
+#nav .basic .login a{
+    color:#4bd077;
+}
+.basic .login a{
+    font-size:14px;
+    color:#22c335;
+    font-family:"microdoft yahei";
+}
+.basic .login .tag{
+    display:inline-block;
+    width:1px;
+    height:12px;
+    background:#959ca1;
+    vertical-align:-4px;
+}
+#listLogin,#listWelcome{
+    float: right;
+}
+#listLogin li,#listWelcome li{
+    float: left;
+    line-height: 20px;
+    padding: 2px;
+}
+/*电话*/
+#nav .phone{
+    position:absolute;
+    right:0;
+    float:right;
+    text-align:right;
+    margin-top:10px;
+}
+.phone .basic_phone{
+    font:14px "microsoft yahei";
+    float:left;
+    padding-right:10px;
+}
+.basic_phone .phone-text{
+    color:#afbcc5;
+}
+.basic_phone .phone-tel{
+    color:#ffaa32;
+    font-weight:bold;
+}

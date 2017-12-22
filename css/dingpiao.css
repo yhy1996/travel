@@ -1,0 +1,270 @@
+
+/**内容**/
+.container{
+	width:1190px;
+/*	height:428px;*/
+	margin:0 auto;
+/*	background:#f4f4f4;*/
+/*	padding-top:20px;*/
+	font-family:"Microsoft Yahei",'宋体';
+}
+.container .group{
+	height:428px;
+	padding-top:20px;
+}
+.container .group h2{
+	font-size:20px;
+	color:#07afab;
+	font-weight:bold;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:90px;
+}
+.container .mytab{
+	display:inline-block;
+	vertical-align:middle;
+	list-style:none;
+}
+.container .mytab li{
+	float:left;
+	margin-right:5px;
+	overflow:visible;
+}
+.container .mytab li a{
+	font-size:14px;
+	color:rgb(102,102,102);
+	display:block;
+	height:23px;
+	line-height:23px;
+	padding:0px 19px;
+}
+.container .mytab li.on a{
+	background:#07afab;
+	color:#fff;
+	font-weight:bold;
+}
+.container .more{
+	float:right;
+	color:#999;
+}
+.tag-wrapper{
+	float:left;
+	width:190px;
+	overflow:hidden;	
+}
+.tag-wrapper .tag-col{
+	position:relative;
+	width:95px;
+	float:left;
+}
+.tag-wrapper .tag-col a{
+	display:inline;
+}	
+.tag-wrapper .tag-col .tag-item{
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+	cursor:pointer;
+	border-right:1px dashed #666;
+	border-bottom:1px dashed #666;
+}
+.tag-wrapper .tag-col .tag-item.short{
+	height:95px;
+	line-height:95px;
+	position:relative;
+	background:#24adc6;
+}
+.tag-wrapper .tag-col .tag-item.long{
+	height:135px;
+	line-height:135px;
+	background:#0fa8a9;
+}
+.tag-wrapper .tag-col .tag-item.blockgreen{
+	background:#50c389;
+}
+.tag-wrapper .tag-col .tag-item:hover{
+	opacity:.8;
+}
+.tag-wrapper .tag-col .tag-item.green{
+	background:#0abda6;
+}
+.tag-wrapper .tag-col .tag-item.blue{
+	background:#24adc6;
+}
+.tag-wrapper .tag-col .tag-item.readmore{
+	text-align:center;
+	height:95px;
+	width:95px;
+	font-size:16px;
+	line-height:100px;
+	color:#999;
+}
+.jingdian .block{
+	width:1000px;
+	float:right;
+	margin-right:-15px;
+}
+.jingdian .jingdian-item{
+	float:right;
+	width:791px;
+	max-height:380px;
+	overflow:hidden;
+}
+.jingdian .jingdian-item{
+	float:left;
+	position:relative;
+	zoom:1;
+	width:188px;
+	height:175px;
+	margin-left:7px;
+	margin-bottom:13px;
+	border:1px solid #ddd;
+	box-shadow:0 1px 1px #ddd;
+}
+.jingdian .jingdian-item .jingdian-img{
+	height:110px;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.jingdian .jingdian-item .jingdian-img img{
+	width:188px;
+	display:block;
+	height:110px;
+}
+.jingdian .jingdian-item .jingdian-img .jingdian-mask{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:23px;
+	background:#333;
+	opacity:.7;
+	box-shadow:0px -8px 11px #333;
+}
+.jingdian .jingdian-item .jingdian-img .jingdian-data{
+	font-family:'宋体';
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:23px;
+}
+.jingdian .jingdian-item .jingdian-img .jingdian-data .satisfy-rate{
+	display:inline-block;
+	color:#ccc;
+	width:91px;
+	text-align:center;
+}
+.jingdian .jingdian-item .jingdian-img .jingdian-data .toueist-rate{
+	display:inline-block;
+	color:#ccc;
+	width:91px;
+	text-align:right;
+}
+.jingdian .jingdian-item .jingdian-meta{
+	padding:7px 8px 0 8px;
+}
+.jingdian .jingdian-item .jingdian-meta .meta-name{
+	font-size:16px;
+	color:#666;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.jingdian .jingdian-item .jingdian-meta .meta-name a{
+	overflow:hidden;
+	width:100%;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	color:#404040;
+}
+.jingdian .jingdian-item .jingdian-meta .meta-price{
+	font-size:16px;
+	color:#f60;
+	float:left;
+}
+.jingdian .jingdian-item .jingdian-meta .meta-price .smaller{
+	font-size:12px;
+}
+/*热门目的地*/
+.container .group .mudi{
+	margin-top:10px;
+	padding:10px;
+	border-top:2px solid #e15b38;
+	width:1190px;
+	height:352px;
+}
+.mudi .mudi-item{
+	width:390px;
+	position:relative;
+	height:160px;
+	overflow:hidden;
+	float:left;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.mudi .first{
+	margin-left:0 !important;
+}
+.mudi .mudi-mask{
+/*	z-index:10;*/
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:32px;
+	width:100%;
+	background:#333;
+	opacity:.8;
+}
+.mudi .mudi-title{
+	z-index:20px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:32px;
+	width:100%;
+	text-align:center;
+}
+.mudi .mudi-title a{
+	line-height:32px;
+	color:#fff;
+	font-size:14px;
+}
+/*合作景区*/
+.container .jingqu{
+	height:150px;
+}
+.container .group .jingqu{
+	border-top:2px solid #333;
+}
+.jingqu .share-item{
+	width:1200px;
+	position:relative;
+	overflow:hidden;
+}
+.jingqu .share-item ul{
+	width:100%;
+	height:110px;
+	position:relative;
+}
+.jingqu .share-item ul li{
+	float:left;
+	overflow:visible;
+	padding:5px 10px 5px 0;
+	width:190px;
+}
+.jingqu .share-item ul li .point{
+	width:188px;
+	float:left;
+	height:98px;
+	position:relative;
+	overflow:hidden;
+	box-shadow:0 0 5px #ddd;
+	border:1px solid #ddd;
+}
+.jingqu .share-item ul li .point img{
+	display:inline;
+	width:188px;
+}

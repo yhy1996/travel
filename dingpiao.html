@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>景点门票</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/dingpiao.css">
+</head>
+<body>
+	<div class="main">
+		<!--头部 -->
+		<div id="header">
+			<img src="img/loading.gif" alt="加载中..."/>
+		</div>
+		<!--轮播图-->
+		<div id="banner">
+      <!-- 图片区域 -->
+      <ul id="banner-img" class="banner-img" 
+          style="transition:all .3s linear;" data-load="bannerImgs">
+          <li style="left:50%; margin: 180px 0 0 -19px;">
+            <img src="img/loading.gif">
+          </li>
+      </ul>
+      <!--左右方向按钮-->
+      <a href="#" class="ck-slide ck-left" data-move="left"></a>
+      <a href="#" class="ck-slide ck-right" data-move="right"></a>
+      <!--导航小圆点-->
+      <ul id="indicators"  class="indicators" data-load="bannerInds">
+        <!-- <li></li> -->
+      </ul>
+			<!-- 搜索框 -->
+			<div id="banner-search">
+				<div class="hot-search">
+					<em>热搜：</em>
+					<span class="hot-city">三亚</span>
+					<span class="hot-city">泰国</span>
+					<span class="hot-city">日本</span>
+					<span class="hot-city">云南</span>
+					<span class="hot-city">厦门</span>
+					<span class="hot-city">成都</span>
+					<span class="hot-city">台湾</span>
+					<span class="hot-city">北京</span>
+					<span class="hot-city">普吉</span>
+					<span class="hot-city">马尔代夫</span>
+					<span class="hot-city">越南</span>
+					<span class="hot-city">香港</span>
+				</div>
+				<div class="input-search">
+					<input type="text" placeholder="输入目的地/景点" class="searchInput">
+					<a href="#" class="searchButton">搜索</a>
+				</div>
+			</div>
+		</div>
+		<!--内容 -->
+		<div class="container">
+			<div class="group">
+				<h2>身边景点</h2>
+				<ul class="mytab">
+					<li class="on"><a href="#">精选</a></li>
+					<li><a href="#">洛阳</a></li>
+					<li><a href="#">郑州</a></li>
+					<li><a href="#">开封</a></li>
+					<li><a href="#">许昌</a></li>
+					<li><a href="#">安阳</a></li>		
+				</ul>
+				<a href="#" class="more">更多景点&gt;</a>
+				<div class="jingdian">
+					<div class="tag-wrapper">
+						<div class="tag-col">
+							<a href="#">
+								<div class="tag-item short">名胜风光</div>
+							</a>
+							<a href="#">
+								<div class="tag-item long">古镇园林</div>
+							</a>
+							<a href="#">
+								<div class="tag-item long blockgreen">家庭亲子</div>
+							</a>
+						</div>
+						<div class="tag-col border">
+							<a href="#">
+								<div class="tag-item long green">主题乐园</div>
+							</a>
+							<a href="#">
+								<div class="tag-item long blue">演出表演</div>
+							</a>
+							<a href="#">
+								<div class="tag-item readmore">查看更多&gt;</div>
+							</a>
+						</div>
+					</div>
+					<div class="block">
+						<!--<div class="jingdian-item">
+							<div class="jingdian-img">
+								<a href="#">
+									<img src="${obj.pic}" alt="">
+								</a>
+								<div class="jingdian-mask"></div>
+								<div class="jingdian-data">
+									<div class="satisfy-rate">${obj.sat}</div>	
+									<div class="toueist-rate">
+										${obj.appraise}
+									</div>
+								</div>
+							</div>
+							<div class="jingdian-meta">
+								<div class="meta-name">
+									<a href="#">${obj.lname}</a>
+								</div>
+								<div class="meta-price">
+									￥<strong>${obj.price}</strong><span class="smaller">起</span>
+								</div>
+							</div>	
+						</div>-->
+					</div>
+				</div>
+			</div>
+			<div class="group">
+				<h2 style="color:#e15b38;">热门目的地</h2>
+				<div class="mudi">
+					<div class="mudi-item first">
+						<a href="#">
+							<img src="img/dingpiao/mdd_1.jpg" alt="">
+						</a>
+						<div class="mudi-mask"></div>
+						<div class="mudi-title">
+							<a href="#">上海迪士尼</a>
+						</div>
+					</div>
+					<div class="mudi-item">
+						<a href="#">
+							<img src="img/dingpiao/mdd_2.jpg" alt="">
+						</a>
+						<div class="mudi-mask"></div>
+						<div class="mudi-title">
+							<a href="#">圣亚海洋世界</a>
+						</div>
+					</div>
+					<div class="mudi-item">
+						<a href="#">
+							<img src="img/dingpiao/mdd_3.jpg" alt="">
+						</a>
+						<div class="mudi-mask"></div>
+						<div class="mudi-title">
+							<a href="#">昂坪360</a>
+						</div>
+					</div>
+					<div class="mudi-item first">
+						<a href="#">
+							<img src="img/dingpiao/mdd_4.jpg" alt="">
+						</a>
+						<div class="mudi-mask"></div>
+						<div class="mudi-title">
+							<a href="#">珠海长隆海洋王国</a>
+						</div>
+					</div>
+					<div class="mudi-item">
+						<a href="#">
+							<img src="img/dingpiao/mdd_5.jpg" alt="">
+						</a>
+						<div class="mudi-mask"></div>
+						<div class="mudi-title">
+							<a href="#">九寨沟</a>
+						</div>
+					</div>
+					<div class="mudi-item">
+						<a href="#">
+							<img src="img/dingpiao/mdd_6.jpg" alt="">
+						</a>
+						<div class="mudi-mask"></div>
+						<div class="mudi-title">
+							<a href="#">天目湖</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="group jingqu">
+				<h2 style="color:#333;">合作景区</h2>
+				<div class="jingqu">
+					<div class="share-item">
+						<ul class="ul_item">
+							<li>
+								<div class="point"><a href="#"><img src="img/dingpiao/jq_1.jpg" alt=""></a></div>
+							</li>
+							<li>
+								<div class="point"><a href="#"><img src="img/dingpiao/jq_2.jpg" alt=""></a></div>
+							</li>
+							<li>
+								<div class="point"><a href="#"><img src="img/dingpiao/jq_3.jpg" alt=""></a></div>
+							</li>
+							<li>
+								<div class="point"><a href="#"><img src="img/dingpiao/jq_4.jpg" alt=""></a></div>
+							</li>
+							<li>
+								<div class="point"><a href="#"><img src="img/dingpiao/jq_5.jpg" alt=""></a></div>
+							</li>
+							<li>
+								<div class="point"><a href="#"><img src="img/dingpiao/jq_6.jpg" alt=""></a></div>
+							</li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer">
+			<iframe src="footer.html" frameborder="0"></iframe>
+		</div>
+	</div>
+	<script src="js/ajax.js"></script>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/banner.js"></script>
+	<script src="js/dingpiao.js"></script>
+</body>
+</html>

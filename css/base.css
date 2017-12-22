@@ -1,0 +1,44 @@
+body{
+	font:12px "Hiragino Sans GB", Tahoma, arial, 宋体, sans-serif;
+	margin:0;
+	padding:0;
+	color:rgb(64,64,64);
+	text-align:left;
+	line-height:1.5;
+	}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,pre,div,code,form,fieldset,legend,input,button,textarea,blockquote,th,td{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{	
+	text-decoration:none;
+}
+a:hover{
+	color:#000;
+}
+img{
+	vertical-align:bottom;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+.lf{ float:left;}
+.rt{ float:right;}
+div.main{
+	min-width:1300px;
+	margin:0 auto;
+}
+#header iframe{
+	width:100%;
+	min-height:60px;
+}
+#footer iframe{
+	min-width:100%;
+	min-height:700px;
+}
+

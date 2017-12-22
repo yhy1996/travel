@@ -1,0 +1,257 @@
+.header{ width:100%;}
+.header_common{
+	box-shadow:1px 1px 5px #eee;
+	overflow:hidden;
+	padding:20px 0;
+}
+.header_inner{
+	width:1000px;
+	margin:0 auto;
+}
+.header_common .site_logo{
+	float:left;
+}
+.header_common .site_logo img{
+	display:block;
+	height:41px;
+	width:150px;
+}
+/*content*/
+.wrap{
+	height:560px;
+	background:url("../img/enter/enter_1.jpg") no-repeat top center;
+	margin:0 auto;
+}
+.main .content{
+	width:1000px;
+}
+.content{
+	width:1200px;
+	height:560px;
+	margin:0 auto;
+	position:relative;
+}
+.login-content{
+	background:#fff;
+	min-height:300px;
+	width:400px;
+	position:absolute;
+	top:60px;
+	right:40px;
+	z-index:10;
+	box-shadow:0 1px 4px rgba(51,51,51,.2);
+}
+.login-box-inner{
+	width:400px;
+	height:410px;
+	background:#fff;
+}
+.login-tab{
+	margin:0;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+	list-style:none;
+	padding:15px 0;
+	border-bottom:1px solid #ebebeb;
+}
+.login-tab-li:first-child{
+	border-right:1px solid #ebebeb;
+}
+.login-tab-li{
+	font-size:20px;
+	color:#333;
+	font-weight:bold;
+	cursor:pointer;
+	width:49%;
+	float:left;
+}
+.login-tab-li:hover{
+	color:#22c233;
+}
+.login-tab-li:nth-child(1){
+	color:#22c233;
+}
+li{
+	overflow:hidden;
+}
+/*input*/
+.login-table{
+	margin:0 auto;
+	border:none;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+tbody{
+	display:table-row-group;
+	vertical-align:middle;
+	border-color:inherit;
+}
+tr{
+	display:table-row;
+	vertical-align:inherit;
+	border-color:inherit;
+}
+.login-table .login-tip{
+	padding:10px;
+}
+.login-table td,.login-table th{
+	vertical-align:middle;
+	height:30px;
+	line-height:24px;
+	font-family:"microsoft yahei";
+}
+.login-table .error{
+	width:281px;
+	height:30px;
+	top:12px;
+	line-height:30px;
+	font-family:MicrosoftYaHei;
+	font-size:12px;
+	color:#fa4949;
+	padding-left:31px;
+	background-position:6px -634px;
+}
+.hover .input_div{
+	border:1px solid #22c233;
+}
+.input_div{
+	position:relative;
+	border:1px solid #ddd;
+	width:330px;
+	height:40px;
+	margin-top:10px;
+}
+.line_1 input{
+	background-position:15px -9px;
+}
+input[type=tel]{
+	width:262px;
+	height:38px;
+	padding-left:48px;
+	border:none;
+	padding-top:2px;
+	line-height:40px;
+	outline:none;
+}
+.cgrey2{
+	color:#999;
+}
+.input_div a.aChangeBorder{
+	position:absolute;
+	top:8px;
+	right:10px;
+	color:#2e9900;
+}
+/*密码*/
+.line_2 input{
+	background-position:15px -48px;
+}
+input[type=password]{
+	width:262px;
+	height:38px;
+	padding-left:48px;
+	border:0;
+	padding-top:2px;
+	line-height:40px;
+	outline:none;
+}
+/*自动登陆*/
+.line_4 td{ height:40px;}
+.search_psw{
+	color:#666;
+	float:right;
+}
+.switchTab{
+	height:16px;
+	position:relative;
+	top:-3px;
+}
+a{ color:#404040;}
+img{ border:none;padding-right:4px;}
+/*登录*/
+.sub{
+	display:block;
+	background:#f80;
+	text-align:center;
+	font:18px "microsoft yahei";
+	color:#fff;
+	height:40px;
+	line-height:40px;
+	border-radius:3px;
+	width:100%;
+	border:none;
+	cursor:pointer;
+}
+.sub:hover{
+	color:#fff;
+}
+.reg_btn{ float:right;}
+.reg_type{ color:#ff9e4c;}
+/*其它方式登录*/
+.partner-login{
+	list-style:none;
+	padding:21px 0 14px 29px;
+	text-align:center;
+	margin-top:30px;
+	position:relative;
+	border-top:1px solid #efefef;
+	font-family:"microsoft yahei";
+}
+.partner-title{
+	position:absolute;
+	top:-10px;
+	left:154px;
+	font-size:14px;
+	color:#222;
+}
+.partner-box{
+	position:relative;
+	cursor:pointer;
+	background-size:auto 100%;
+	background-repeat:no-repeat;
+	font-family:MicrosoftYaHei;
+	font-size:14px;
+	color:#666;
+	line-height:14px;
+	text-align:left;
+	padding:5px 7px 5px 35px;
+	float:left;
+}
+.partner-box img{
+	height:15px;
+	position:absolute;
+	top:5px;
+	left:7px;
+}
+.partner-box>span{
+	display:block;
+	padding-right:15px;
+	border-right:1px solid #ddd;
+}
+.partner-last>span{
+	border-right:none;
+}
+/*尾部*/
+.footer{
+	font-size:14px;
+	width:1000px;
+	margin:25px auto;
+	color:#777;
+}
+.footer p{
+	line-height:18px;
+	text-align:center;
+}
+.footer .TN-links{
+	width:1000px;
+	height:36px;
+	margin-top:10px;
+}
+.footer a{
+	margin:0 5px;
+	color:#777;
+}
+.footer a:hover{
+	color:red;
+}

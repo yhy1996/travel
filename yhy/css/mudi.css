@@ -1,0 +1,211 @@
+/*主题目的地*/
+#section{font-family: "Microsoft YaHei";}
+#section .content{
+	width:1200px;
+	height:350px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#section .row{
+	float:left;
+	width:100%;
+	margin:0 auto;
+	padding:40px 0;
+	padding-bottom:30px;
+}
+.row h2{
+	text-align:center;
+	font-size:28px;
+	line-height:48px;
+}
+.tabs{
+	padding:0 !important;
+	font-size:16;
+	text-align:center;
+	margin-top:24px;
+	height:37px;
+	overflow:hidden;
+	margin-bottom:25px;
+}
+.tabs li{
+	display:inline-block;
+	line-height:36px;
+	height:36px;
+	padding:0 30px;
+	font-weight:bold;
+	font-size:16px;
+	border-bottom:1px solid #e4e4e4;
+}
+.modules{
+	width:280px;
+	height:157px;
+	overflow:hidden;
+	position:relative;
+	cursor:pointer;
+}
+.modules img{
+	width:auto;
+	vertical-align:bottom;
+	height:100%;
+}
+.modules .info{
+	width:100%;
+	height:70px;
+	box-sizing:border-box;
+	padding:0 10px;
+	bottom:-36px;
+	left:0;
+	position:absolute;
+	color:#fff;
+}
+.modules:hover .info{
+	bottom:-15px;
+	transition:bottom 0.5s ease;
+	opacity:0.9;
+}
+.modules .info h4{
+	font-family: "Microsoft YaHei";
+	font-size:18px;
+	line-height:1;
+	margin-top:7px;
+	float:left;
+	font-weight:400;
+}
+.modules .info .go{
+	float:right;
+	font-size:12px;
+	line-height:1;
+	margin-top:13px;
+}
+.modules .info .go .iconfont{
+	width:11px;
+	height:12px;
+	vertical-align:-5%;
+	display:inline-block;
+	margin-right:3px;
+}
+.modules .intro{
+	font-size:12px;
+	line-height:16px;
+	margin-top:32px;
+}
+/*月度目的地*/
+#section .item{
+	width:1200px;
+	height:530px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	cursor:pointer;
+}
+#section .flex{
+	width:910px;
+	height:520px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#section .monthDest{
+	background:#f7f7f7;
+}
+.monthDest .module{
+	margin-right:9px;
+	position:relative;
+	overflow:hidden;
+	background:black;
+}
+.monthDest .module1{
+	width:290px;
+	height:512px;
+}
+.module1 img{
+	width:auto;
+	height:512px;
+	position:absolute;
+	left:-220px;
+	vertical-align:bottom;
+}
+.item img{transition:all 0.6s ease;}
+.module .mask{
+	position:absolute;
+	bottom:-50px;
+	left:0;
+	height:125px;
+	width:100%;
+	padding-top:12px;
+	color:#fff;
+}
+.module .info{
+	width:100%;
+	height:117px;
+	position:absolute;
+	left:0;
+	bottom:-45px;
+	color:#fff;
+	transition:bottom 0.3s ease;
+}
+.module:hover .info{
+	bottom:-15px;
+	transition:bottom 0.5s ease;
+	opacity:0.9;
+}
+.module:hover img{
+	transform:scale(1.1);
+}
+.module .info .intro{
+	padding:8px 8px 8px 11px;
+	margin-top:15px;
+}
+.module .info .title{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-align:center;
+}
+.module .info .title .word{
+	font-size:30px;
+}
+.module .info .comment{
+	line-height:20px;
+	font-size:16px;
+	margin-top:2px;
+	margin-bottom:14px;
+	max-height:40px;
+	overflow:hidden;
+}
+.module2{
+	width:300px;
+	height:250px;
+}
+.module2 img{
+	width:auto;
+	height:250px;
+}
+.module3{
+	width:575px;
+	height:250px;
+}
+.module3 img{
+	width:auto;
+	height:250px;
+}
+.module4{	
+	margin-top:12px;
+	width:575px;
+	height:250px;
+}
+.module4 img{
+	width:auto;
+	height:250px;
+}
+.module5{	
+	margin-top:12px;
+	width:300px;
+	height:250px;
+}
+.module5 img{
+	width:auto;
+	height:250px;
+}

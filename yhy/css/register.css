@@ -1,0 +1,145 @@
+#header{
+	height:60px;
+}
+#content{
+	width: 1920px;
+	height:853px;
+	background:url("../img/regist/register_bg.jpg") no-repeat;
+	margin:0 auto;
+	position:relative;
+}
+#content .container{
+	width:1200px;
+	height:610px;
+	background:#fff;
+	position:absolute;
+	top:135px;
+	left:350px;
+}
+#content .container .top{
+	height:60px;
+	line-height:60px;
+	background-color:#43b413;
+	color:#fff;
+	font-size:22px;
+	text-align:center;
+	font-weight:bold;
+}
+.header{ width:100%;}
+.header_common{
+	box-shadow:1px 1px 5px #eee;
+	overflow:hidden;
+	padding:20px 0;
+}
+.header_inner{
+	width:1000px;
+	margin:0 auto;
+}
+.header_common .site_logo{
+	float:left;
+}
+.header_common .site_logo img{
+	display:block;
+	height:41px;
+	width:150px;
+}
+/*注册部分*/
+.register p{
+	margin-top:25px;
+	float:left;
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+}
+.register{
+	width:425px;
+	margin:0 auto;
+	font-weight:bold;
+}
+.new{
+	width:320px;
+	height:46px;
+	outline:none;
+	border:none;
+	margin-top:15px;
+	background:#fff;
+	color:#000;
+	border:1px solid #ddd;
+	text-align:left;
+	padding-left:15px;
+	box-sizing:border-box;
+}
+.ck-in a{
+	color:#22e233;
+	font-size:13px;
+}
+.login-in{
+	margin-top:5px;
+	width:410px;
+	height:46px;
+	margin-bottom:20px;
+	font-size: 20px;
+	color:#fff;
+	outline:none;
+	border:none;
+	text-align:center;
+	cursor:pointer;
+	background:#22e233;
+}
+.footer{
+	font-size:14px;
+	width:1000px;
+	margin:25px auto;
+	color:#777;
+}
+.footer p{
+	line-height:18px;
+	text-align:center;
+}
+.footer .TN-links{
+	width:1000px;
+	height:36px;
+	margin-top:10px;
+}
+.footer a{
+	margin:0 5px;
+	color:#777;
+}
+.footer a:hover{
+	color:red;
+}
+
+#uname-show{
+	width:25px;
+	height:25px;
+    display:inline-block;
+    background-image:url("");
+    vertical-align: middle;
+}
+ #upwd-show{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  background-image:url("");
+  vertical-align: middle;
+ }
+ #cpwd-show{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  background-image:url("");
+  vertical-align: middle;
+ }
+ #email-show{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  background-image:url("");
+  vertical-align: middle;
+ }
+ #phone-show{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  background-image:url("");
+  vertical-align: middle;
+ }

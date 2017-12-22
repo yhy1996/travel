@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>途牛登录页面</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="header_common">
+				<div class="header_inner">
+					<div class="site_logo">
+						<a href="#">
+							<img src="img/header/logo1.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="content">
+				<div class="login-content">
+					<div class="login-box-inner">
+						<ul class="login-tab">
+							<li id="log-tab-user" class="login-tab-li cur">账户登录</li>
+							<li id="log-tab-pass" class="login-tab-li cur">扫码登录</li>
+						</ul>
+						<div class="account-login">
+							<form action="">
+								<table class="login-table">
+									<tbody>
+										<tr>
+											<td class="login-tip">
+												<div id="login-error" class="error login-error"></div>
+											</td>
+										</tr>
+										<tr	id="line_1" class="line_1">
+											<td class="input_div J_input_right">
+												<input type="tel" id="normal_tel" name="phone" autocomplete="off" tabindex="1" class="txt txt-m txt-focus cgrey tel" placeholder="手机号/会员号/昵称/邮箱">
+												<a href="#" class="aChangeBorder" required>国际手机号登陆</a>
+											</td>
+										</tr>
+										<tr	id="line_2" class="line_2">
+											<td>
+												<div class="input_div">
+													<input type="password" name="upwd"
+														   autocomplete="off" tabindex="2" class="txt txt-m" placeholder="请输入密码" required>
+												</div>
+											</td>
+										</tr>
+										<tr class="line_4">
+											<td class="cgrey2 line2">
+												<label>
+													<input type="checkbox" class="remember_me" tabindex="4" name="remember_me"
+														   value="1">&nbsp;自动登陆
+												</label>
+												<a href="#" class="search_psw">
+													<img src="img/enter/mobile.png" class="switchTab">手机动态密码登陆？
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td class="line2">
+ 												<!--<input type="button" value="登录" name="usubmit" tabindex="5" class="sub">-->
+												<a class="sub btn" name="usubmit">&nbsp;登&nbsp;录&nbsp;</a>
+											</td>
+										</tr>
+										<tr>
+											<td class="cgrey2 line2">
+												<a href="#" style="flaot:left;">
+													忘记密码
+												</a>
+												<a href="register.html" class="reg_btn">
+													新用户送礼，
+													<span class="reg_type">立即注册&gt;</span></a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</form>
+						</div>
+						<div class="partner-login">
+							<div class="partner-title">其它方式登录</div>
+							<div id="weixin" class="partner-box">
+								<img src="img/enter/weixinv2.png">
+								<span>微信</span>
+							</div>
+							<div id="qq" class="partner-box">
+								<img src="img/enter/qqv2.png">
+								<span>QQ</span>
+							</div>
+							<div id="weibo" class="partner-box">
+								<img src="img/enter/weibov2.png">
+								<span>微博</span>
+							</div>
+							<div id="hezuoka" class="partner-box partner-last">
+								<img src="img/enter/cardv2.png">
+								<span>合作卡</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p class="TN-24">24小时客户服务电话(免长途费)：4007-999-999  途牛呼叫中心位于南京来电将统一显示为 025-86859999
+			</p>
+			<p class="TN-links">
+					<a href="#">关于我们</a>
+					<a href="#">Investor Relations</a>
+					<a href="#">联系我们</a>
+					<a href="#">投诉建议</a>
+					<a href="#">广告服务</a>
+					<a href="#">旅游券</a>
+					<a href="#">途牛招聘</a>
+					<a href="#">隐私保护</a>
+					<a href="#">免责声明</a>
+					<a href="#">旅游度假资质</a>
+					<a href="#">供应商合作</a>
+					<a href="#">用户协议</a>
+					<a href="#">网站地图</a>
+					<a href="#">团队博客</a>
+					<a href="#">网站联盟</a>
+					<a href="#">UEIP</a>
+					<a href="#">帮助中心</a>
+			</p>
+			<p class="copyright">Copyright © 2006-2014 
+				<a href="#">途牛旅游网</a>
+				<a href="#">Tuniu.com</a>|
+				<a href="#">营业执照</a>|
+				<a href="#">ICP证：苏B2-20130006</a>
+				<a href="#">上海旅游网</a>
+			</p>
+		</div>
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>	

@@ -1,0 +1,525 @@
+.product{
+	width:1100px;
+	margin:0 auto;
+	font-family:arial,Tahoma,"Microsoft YaHei";
+	padding-bottom:10px;
+	font-size:12px;
+	background:#f0f2f5;
+}
+.resource{
+	margin-bottom:20px;
+	padding:20px 0 14px 28px;
+	border:1px solid #ddd;
+	background:#fff;
+}
+.search_nav{
+	margin:0 0 10px;
+	height:16px;
+	line-height:16px;
+	vertical-align:middle;
+	color:#999;
+	padding-top:10px;
+}
+.search_nav a{
+	color:#059911;
+	padding:0 5px;
+}
+.crum{
+	color:#999;
+}
+.resource-right{
+	width:550px;
+	float:left;
+}
+.title{
+	padding-left:58px;
+	font-family:"Microsoft YaHei";
+	font-size:22px;
+	color:#111;
+	line-height:22px;
+	text-align:left;
+	margin-bottom:16px;
+}
+.price{
+	height:45px;
+	line-height:36px;
+	width:512px;
+	padding-left:58px;
+	background-size:100%;
+	color:#999;
+	margin-bottom:16px;
+}
+.money{
+	color:#f60;
+	font-family:'Arial-BoldMT';
+	font-size:30px;
+}
+.symbol{
+	font-size:12px;
+}
+.detail-address{
+	padding-left:58px;
+	margin-bottom:10px;
+	margin-right:20px;
+	color:#999;
+	font-size:12px;
+}
+.detail-address span{
+	color:#666;
+}
+.detail-address span.green{
+	color:#22c233;
+	cursor:pointer;
+	padding:2px 4px;
+}
+.resource-body{
+	position:relative;
+	z-index:2;
+}
+.open-time{
+	padding-left:58px;
+	padding-right:30px;
+	margin-bottom:10px;
+	position:relative;
+	color:#999;
+	font-size:12px;
+}
+.label{
+	width:65px;
+	float:left;
+}
+.con{
+	color:#666;
+}
+.promise{
+	padding-left:58px;
+	margin-bottom:10px;
+	position:relative;
+	color:#999;
+	font-size:12px;
+}
+#promise{
+	border:1px solid #ff7a20;
+	border-radius:2px;
+	color:#f60;
+	padding:1px 6px;
+}
+.btm{
+	width:475px;
+	height:100px;
+	margin-left:25px;
+	overflow:hidden;
+	background:#f9f9f9;
+	padding:12px;
+	color:#999;
+}
+.sat{
+	padding-left:37px;
+	margin-bottom:15px;
+}
+.sat span{
+	color:#fe8f0f;
+	font-size:16px;
+}
+.sat .comments{
+	cursor:pointer;
+}
+.cmt{
+	padding:0 50px;
+	line-height:80px;
+	position:relative;
+	height:80px;
+	overflow:hidden;
+}
+.cmt .btns{
+	height:50px;
+	background:#f80;
+	border:0;
+	width:160px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+}
+.cmt .img_1{
+	left:0;
+	top:0;
+}
+.cmt .img_2{
+	right:0;
+	bottom:0;
+}
+.cmt img{
+	position:absolute;
+}
+.resource-body:after,.resource-base:after,.promotion-content:after,.section-item:after{
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+}
+.resource-left{
+	float:left;
+	width:500px;
+}
+.resource-gallery{
+	width:500px;
+}
+.gallery-display{
+	position:relative;
+	height:280px;
+	overflow:hidden;
+}
+#superMask{
+	position: absolute;
+    width: 500px;
+    height: 280px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: move;
+}
+#mask{
+	position: absolute;
+    width: 250px;
+    height: 140px;
+    background: #ffa;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    display:none;
+}
+#largeDiv{
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    background: #fff;
+    border: 1px solid #ddd;
+    top: 0;
+    left: 510px;
+    z-index: 999;
+    display: none;
+ }
+.gallery-box{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+.photo{
+	z-index:1;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.photo img{
+	width:500px;
+	height:280px;
+}
+.gallery-nav{
+	position:relative;
+	border:1px solid #ddd;
+	padding:5px 0;
+}
+.gallery-prev{
+	left:0;
+} 
+.gallery-next{
+	right:0;
+} 
+.gallery-prev,.gallery-next{
+	position:absolute;
+	z-index:3;
+	top:0;
+	width:37px;
+	height:100%;
+	cursor:pointer;
+}
+i{
+	font-style:normal;
+}
+.disabled{
+	opacity:0.3;
+}
+.gallery-nav .gallery-prev .icon{
+	position:absolute;
+	left:50%;
+	top:50%;
+	background:url('../img/dingpiao/left.png') no-repeat;
+	overflow:hidden;
+	display:inline-block;
+	height:18px;
+	width:11px;
+	margin-top:-9px;
+	margin-left:-5.5px;
+}
+.gallery-nav .gallery-next .icon{
+	position:absolute;
+	left:50%;
+	top:50%;
+	background:url('../img/dingpiao/right.png') no-repeat;
+	overflow:hidden;
+	display:inline-block;
+	height:18px;
+	width:11px;
+	margin-top:-9px;
+	margin-left:-5.5px;
+}
+.gallery-thumbs{
+	position:relative;
+	z-index:1;
+	height:50px;
+	margin:0 33px;
+	overflow:hidden;
+}
+.gallery-box{
+	position:relative;
+}
+.gallery-list{
+	width:540px;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:all .5s linear;
+}
+.gallery-thumb{
+	position:relative;
+	float:left;
+	width:100px;
+	height:50px;
+	margin:0 4px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.gallery-thumb img{
+	display:block;
+	width:100%;
+	margin-top:-3px;
+}
+.line-box{
+	width:1015px;
+	padding:20px 40px;
+	background:#fff;
+	border:2px solid #ffb622;
+	margin:20px 0 25px 0;
+}
+.line-cont{
+	border:none;
+}
+.cont_ul{
+	margin-bottom:10px;
+}
+.cont_ul li{
+	overflow:hidden;
+}
+.lct{
+	border:none;
+	background:#f9f9f9;
+	color:#999;
+	font-size:14px;
+	padding:0;
+	height:28px;
+	display:table;
+}
+.l_name{
+	float:none;
+	display:table-cell;
+	width:500px;
+	line-height:27px;
+	padding-left:20px;
+	padding:0 5px 0 0;
+}
+.l_time{
+	float:none;
+	display:table-cell;
+	line-height:27px;
+	width:100px;
+	text-align:center;
+}
+.l_g_price,.l_price{
+	float:none;
+	display:table-cell;
+	line-height:27px;
+	width:80px;
+	text-align:center;
+	padding:0 5px;
+}
+.prom{
+	float:none;
+	display:table-cell;
+	line-height:27px;
+	width:120px;
+	text-align:center;
+	padding:0 5px;
+}
+.paymethod{
+	float:none;
+	display:table-cell;
+	line-height:27px;
+	width:auto;
+	text-align:right;
+	padding-right:5px;
+	padding:0 5px;
+}
+.content .pro_title{
+	width:778px;
+	clear:both;
+	display:block;
+	overflow:visible;
+}
+.content .pro_title .ticket_type{
+	margin-top:0;
+	width:1015px;
+	border-bottom:3px solid #eee;
+	margin-bottom:8px;
+	color:#333;
+	font-size:18px;
+	padding:0px;
+	font-weight:700;
+}
+.mb{
+	width:1015px;
+	clear:both;
+	display:block;
+	overflow:visible;
+/*	border-bottom:1px dotted #ddd;*/
+	padding-bottom:10px;
+	padding-top:5px;
+	margin-bottom:5px;
+}
+.name_color{
+	vertical-align:middle;	
+}
+.l_name a{
+	color:#22c233;
+	width:100% !important;
+	display:block;
+	float:left;
+}
+.l_name label{
+	width:auto !important;
+	max-width:425px;
+	word-break:break-all;
+	display:block;
+	float:left;
+	font-size:14px;
+	cursor:pointer;
+}
+.l_name label span{
+	color:#22c233 !important;
+}
+..l_name label span.direc_icon{
+	font-size:12px;
+	transform:scale(0.6);
+	display:block;
+	float:left;
+	width:10px;
+}
+.lct_1{
+	border-bottom:1px dotted #ddd;
+	padding-bottom:5px;
+	margin-top:5px;
+}
+.lct_1 p{
+	vertical-align:middle;
+	float:none;
+}
+.lct_1 p.product_com{
+	text-align:center;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:#666;
+}
+.product_prom{
+	display:table-cell;
+	width:130px;
+	text-align:center;
+}
+.product_prom .coupon{
+	font-size:12px;
+	border:1px solid #f80;
+	border-radius:2px;
+	padding:1px 2px;
+	margin-right:-2px;
+	color:#f60;
+	cursor:pointer;
+}
+.g_price_color{
+	color:#999;
+	font-size:14px;
+}
+.price_color{
+	color:#f60;
+	font-size:15px;
+	font-weight:normal;
+}
+.paytype{
+	display:table-cell;
+	width:72px;
+	border:1px solid #f73;
+	border-radius:2px;
+	box-sizing:border-box;
+}
+.paytype .methods{
+	display:block;
+	width:100%;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	font-size:12px;
+	color:#f73;
+}
+.paytype .method{
+	display:block;
+	width:100%;
+	text-align:center;
+	font-size:12px;
+	color:#f73;
+}
+.btn{
+	line-height:25px;
+	height:25px;
+	background:none;
+	background-color:#f73;
+	color:#fff;
+	font-size:16px;
+	font-family:'宋体';
+	text-align:center;
+	font-weight:normal;
+	cursor:pointer;
+	border:0 none;
+	padding-bottom:0;
+	width:100%;
+}
+.accountChose{
+	display:table-cell;
+	width:220px;
+	padding-top:8px;
+	text-align:center;
+}
+.accountChose span{
+	font-size:15px;
+}
+.accountChose input{
+	width:30px;
+	height:22px;
+	text-align:center;
+	vertical-align:middle;
+}
+.accountChose .numberMinus,.accountChose .numberAdd{
+	display:inline-block;
+    width:30px;
+    text-align:center;
+	padding:4px 0;
+    border:1px solid #f80;
+    vertical-align: middle;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+	background:#f80;
+}

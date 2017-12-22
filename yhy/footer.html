@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<style>
+		.trav_sev{
+			background:#f5f5f5;
+			padding:20px 0 20px 0;
+			clear:both;
+		}
+		.ts_box{
+			width:1004px;
+			margin:0 auto;
+		}
+		.ts_box li.trav_1_first{
+			width:250px;
+		}
+		.ts_box li{
+			float:left;
+			width:150px;
+			margin-right:30px;
+			border-right:1px dotted #d8d8d8;
+			padding-bottom:20px;
+			overflow:hidden;
+			display:list-item;
+		}
+		.ts_box li i.ts_1{
+			background-position:0 0;
+		}
+		.ts_box li i{
+			display:block;
+			width:35px;
+			height:35px;
+			float:left;
+			background-position:0 0;
+			overflow:hidden;
+			font-style:italic;
+		}
+		.ts_box li .trav_1{
+			margin-left:45px;
+			width:140px;
+		}
+		.ts_box li .trav_1 dt,.ts_box li .trav_1 dd{
+			float:left;
+			width:71px;
+			font-size:12px;
+			line-height:1.5;
+		}
+		.ts_box li .trav_1 dt.tl_tt{
+			float:none;
+			width:auto;
+			font-weight:700;
+			font-size:14px;
+			line-height:35px;
+			margin-bottom:10px;
+		}
+		.ts_box li .trav_1 dt.tl_tt a{
+			color:#666;
+			font-weight:bold;
+			cursor:default;
+		}
+		.ts_box li.trav_1_first .trav_1 dd.tl_w{
+			width:240px;
+		}
+		.ts_box li.trav_1_last .trav_1 dd.tl_w a{
+			width:auto;
+		}
+		.ts_box li .trav_1 .tl_cont a,.ts_box li.trav_1_first .trav_1 dd.tl_w a{
+			display:inline-block;
+			color:#999;
+			width:65px;
+		}
+		.ts_box li .trav_1 dd.tl_w a{
+			display:inline-block;
+			color:#999;
+		}
+		.ts_box li .trav_1 dd{
+			width:69px;
+		}
+		.ts_box li i.ts_2{
+			background-position:-40px 0;
+		}
+		.ts_box li i.ts_3{
+			background-position:-80px 0;
+		}
+		.ts_box li i.ts_4{
+			background-position:-120px 0;
+		}
+		.ts_box li i.ts_5{
+			background-position:-160px 0;
+		}
+		.ts_box li .trav_1 dd.tl_w{
+			width:140px;
+			float:none;
+		}
+		/*最后的一个*/
+		.ts_box li.trav_1_last{
+			border-right:none;
+		}
+		.ts_box li .trav_1 dd.tl_cont{
+			float:none;
+			border-right:0 none;
+			width:200;
+		}
+		.ts_box li.trav_1_last .trav_1 dd.tl_w p{
+			width:104px;
+		}
+		.ts_box li.trav_1_last .trav_1 dd.tl_w img{
+			width:80px;
+			height:80px;
+			margin-top:10px;
+		}
+		/*绿色底边*/
+		.three_trav{
+			background:#60ca6e;
+		}
+		.thr_trav{
+			width:990px;
+			height:62px;
+			margin:0 auto;
+			position:relative;
+		}
+		.thr_trav	a{
+			color:#404040;
+		}	
+		.thr_trav .tn_text{
+			color:#fff;
+			font:normal 12px/20px arial,sans-serif;
+			position:absolute;
+			right:10px;
+			bottom:32px;
+			opacity:0.8;
+		}
+		.thr_trav .tn_phone{
+			color:#fff;
+			font:normal bold 20px/32px arial,sans-serif;
+			position:absolute;
+			right:25px;
+			bottom:5px;
+		}
+		/*底层图片*/
+		.fourImgs{
+			width:990px;
+			overflow:hidden;
+			margin:10px auto 0;
+		}
+		.fourImgs ul{
+			width:1200px;
+		}
+		.fourImgs li{
+			float:left;
+			width:238px;
+			height:58px;
+			border:1px solid #d8d8d8;
+			margin-right:10px;
+		}
+		.img_place{
+			width:988px;
+			margin:10px auto 0;
+			border:1px solid #d8d8d8;
+		}
+		/*文字*/
+		.tn_footer{
+			color:#777;
+			line-height:1.9;
+			margin:10px auto 10px;
+			width:1000px;
+			font-size:12px;
+		}
+		#TN-24,#TN-links{
+			line-height:1.9;
+		}
+		.tn_footer p{
+			line-height:1.9;
+			text-align:center;
+		}
+		#TN-links a{
+			margin:0 5px;
+		}
+		.tn_footer a:link,.tn_footer a:visited,.tn_footer a:hover{
+			color:#777;
+			text-decoration:none;
+		}
+		.thr_img{
+			width:581px;
+			overflow:hidden;
+			margin:10px auto 0;
+		}
+		.thr_img ul{
+			width:1000px;
+		}
+		.thr_img li{
+			width:185px;
+			margin-right:10px;
+			border:1px solid #d8d8d8;
+			float:left;
+		}
+		.tn_footer .trav_corp{
+			text-align:center;
+			margin:10px 0 0 0;
+			height:47px;
+			position:relative;
+			z-index:1;
+		}
+		.tn_footer .trav_corp img{
+			height:47px;
+		}
+		.tn_footer img{
+			display:inline;
+		}
+		.slide_order{
+			color:#999;
+			margin:5px 0 0 0;
+		}
+		.f1{
+			float:left;
+		}
+		.slide_order span{
+			width:60px;
+			float:left;
+			display:block;
+			height:22px;
+			overflow:hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="trav_sev">
+		<ul class="ts_box clearfix">
+			<li class="trav_1_first">
+				<i class="ts_1"></i>
+				<dl class="trav_1">
+					<dt class="tl_tt"><a href="#">去旅游</a></dt>
+					<dd class="tl_w">
+						<p>
+							<a href="#">跟团游</a>
+							<a href="#">自助游</a>
+							<a href="#">酒+景</a>
+						</p>
+						<p>
+							<a href="#">海岛游</a>
+							<a href="#">机票</a>
+							<a href="#">游轮</a>
+						</p>
+						<p>
+							<a href="#">门票</a>
+							<a href="#">亲子游</a>
+							<a href="#">签证</a>
+						</p>
+						<p>
+							<a href="#">机票+酒店</a>
+							<a href="#">蜜月游</a>
+							<a href="#">酒店</a>
+						</p>
+						<p>
+							<a href="#">老于推荐</a>
+							<a href="#">公司旅游</a>
+							<a href="#">牛人专线</a>
+						</p>
+						<p>
+							<a href="#">首付出发</a>
+							<a href="#">当前玩乐</a>
+							<a href="#">旅拍</a>
+						</p>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<i class="ts_2"></i>
+				<dl class="trav_1">
+					<dt class="tl_tt"><a href="#">寻优惠</a></dt>
+					<dd class="tl_w">
+						<p><a href="#">特卖</a></p>
+						<p><a href="#">定酒店 返现金</a></p>
+						<p><a href="#">积分商城</a></p>
+						<p><a href="#">银行特惠游</a></p>
+						<p><a href="#">银行分期游</a></p>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<i class="ts_3"></i>
+				<dl class="trav_1">
+					<dt class="tl_tt"><a href="#">看攻略</a></dt>
+					<dd class="tl_w">
+						<p><a href="#">攻略</a></p>
+						<p><a href="#">途牛风向标</a></p>
+						<p><a href="#">游记</a></p>
+						<p><a href="#">达人玩法</a></p>
+					</dd>
+				</dl>
+			</li>
+			<li>
+				<i class="ts_4"></i>
+				<dl class="trav_1">
+					<dt class="tl_tt"><a href="#">查服务</a></dt>
+					<dd class="tl_w">
+						<p><a href="#">帮助中心</a></p>
+						<p><a href="#">积分俱乐部</a></p>
+						<p><a href="#">阳光保障</a></p>
+						<p><a href="#">火车时刻表</a></p>
+						<p><a href="#">航班查询</a></p>
+					</dd>
+				</dl>
+			</li>
+			<li class="trav_1_last">
+				<i class="ts_5"></i>
+				<dl class="trav_1">
+					<dt class="tl_tt"><a href="#">途牛APP</a></dt>
+					<dd class="tl_w tl_cont">
+						<P><a href="#">扫描下载途牛APP</a></P>
+						<p><img src="img/header/erweima.jpg"></p>
+					</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+	<div class="three_trav">
+		<div class="thr_trav">
+			<a href="#">
+				<em class="tn_text" id="service_phone_head_text">客服服务电话</em>
+				<em class="tn_phone" id="service_phone_head_phone">4007-999-999</em>
+			</a>
+		</div>
+	</div>
+	<div class="fourImgs">
+		<ul class="clearfix">
+			<li>
+				<a href="#"><img src="img/footer/footer_1.jpg"></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/footer/footer_2.jpg"></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/footer/footer_3.jpg"></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/footer/footer_4.jpg"></a>
+			</li>
+		</ul>
+	</div>
+	<div class="img_place">
+		<a href="#" style="display:block;">
+			<img src="img/footer/footer_5.jpg">
+		</a>
+	</div>
+	<div id="TN-footer" class="tn_footer data">
+		<p id="TN-24">途牛客服中心位于南京市 来电显示为 025-86859999 、025-86259999 、025-85029999 、025-69609987 、025-69609986 、025-57629999 或 025-52339999</p>
+		<p>北京途牛国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00144　　上海途牛国际旅行社有限公司，旅行社业务经营许可证编号：L-SH-CJ00107    </p>
+		<p id="TN-links">
+			<a href="#">关于我们</a>
+			<a href="#">Investor Relations</a>
+			<a href="#">联系我们</a>
+			<a href="#">投诉建议</a>
+			<a href="#">广告服务</a>
+			<a href="#">旅游券</a>
+			<a href="#">途牛招聘</a>
+			<a href="#">隐私保护</a>
+			<a href="#">免责声明</a>
+			<a href="#">旅游度假资质</a>
+			<a href="#">主题旅游</a>
+			<a href="#">用户协议</a>
+			<a href="#">网站地图</a>
+			<a href="#">UEIP</a>
+			<a href="#">帮助中心</a>
+		</p>
+		<p id="copyright">Copyright © 2006-2017
+			<a href="#">南京途牛科技有限公司</a>
+			<a href="#">Tuniu.com</a>|
+			<a href="#">营业执照</a>|
+			<a href="#">ICP证：苏B2-20130006</a>|
+			<a href="#">苏ICP备12009060号</a>|
+			<a href="#">上海旅游网</a>
+		</p>
+		<div class="thr_img">
+			<ul class="clearfix">
+				<li>
+					<a href="#"><img src="img/footer/footer_6.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/footer/footer_7.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/footer/footer_8.jpg"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="slide_order clearfix" id="slideOrder">
+			<span class="f1">最新预定：</span>
+			<div class="f1 w_940">
+				4分钟前用户***298782预订[国庆]<黄山-宏村-翡翠谷3日游>门票全含，两晚宿山下五星酒店含三餐，含景交和上山索道，舒适度假体验&nbsp;&nbsp;
+			</div>
+		</div>
+		<div class="trav_corp">
+			<a href="#">
+				<img src="img/footer/chengxinOne.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/buliang.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/wangluo.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/cata.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/huiyuan.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/3acomp.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/chengxin.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/dianziyingye.png">
+			</a>
+			<a href="#">
+				<img src="img/footer/pata.png">
+			</a>
+		</div>
+	</div>
+</body>
+</html>
